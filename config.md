@@ -32,7 +32,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 #### Sonrasında şu komutu çalıştır
 source ~/.zshrc
 
-### 4. [servisleri devre dışı bırakma - etkinleştirme ] (Discord girmek isteyenler için zapret alternatifi)
+### 4. [servisleri devre dışı bırakma - etkinleştirme ] - (Discord girmek isteyenler için)
 
 alias dwarp='sudo systemctl disable warp-svc'
 alias ewarp='sudo systemctl enable warp-svc'
