@@ -1,4 +1,4 @@
-# my config .zshrc
+# Arch Linux .zsahrc config ve gerekli uygulamalar
 
 ### 1. [ Recommended apps ]
 
