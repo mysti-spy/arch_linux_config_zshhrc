@@ -71,7 +71,7 @@ alias pwrs='powerprofilesctl set power-saver' <br>
 alias pwrlist='powerprofilesctl list' <br>
 alias pwrget='powerprofilesctl get' <br>
 
-##### Hyperland İLE kurmak isteyenler için
+##### Hyperland ile kurmak isteyenler için
 
 sudo pacman -S power-profiles-daemon
 
