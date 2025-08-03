@@ -16,7 +16,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sudo systemctl enable warp-svc <br>
 sudo systemctl start warp-svc <br>
 
-(Eklencek...)
+#### sonrasında şu komutları gir
+(EKlencek...)
 
 <hr>
 
