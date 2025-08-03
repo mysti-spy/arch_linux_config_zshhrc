@@ -1,12 +1,12 @@
 ### Recommended apps
 
-sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb
-
+sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting
+ 
 yay -S vscodium (none telemetry)
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" **(oh my zsh install)**
 
-### güç modunu değiştirme
+### güç modunu değiştirme (powerprofilesctl)
 
 alias pwrb='powerprofilesctl set balanced'
 alias pwrp='powerprofilesctl set performance'
@@ -23,9 +23,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 ### servisleri devre dışı bırakma - etkinleştirme
 
-### cloudflare warp
+#### warp dns servisini aç-kapa
 alias dwarp='sudo systemctl disable warp-svc'
 alias ewarp='sudo systemctl enable warp-svc'
-
---------------------------------------------------------------------------------------
-
