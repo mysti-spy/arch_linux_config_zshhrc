@@ -1,6 +1,6 @@
 # Arch Linux .zsahrc config ve gerekli uygulamalar
 
-### 1. [ Recommended apps ]
+### 1. Recommended apps
 
 sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting spotify obsidian
 
@@ -14,7 +14,7 @@ cd yay
 #### 2.2 yay paketini derle ve kurmaya başla gelen cevaplara da Y de
 makepkg -si
 
-#### önerebileceğim apps (Opsiyonel)
+#### arch reposunda bulunmadığı için yay dan indirilen apps (Opsiyonel)
 yay -S vscodium warp-cli
 
 ### 3. oh my zsh kurulum komutu
@@ -55,11 +55,15 @@ alias ewarp='sudo systemctl enable warp-svc' <br>
 
 #### powerprofilesctl komut kısayol atama
 
-##### [ güç modunu değiştirme ] - (KDE VE GNOME için)
+##### güç modunu değiştirme - (KDE VE GNOME için)
 alias pwrb='powerprofilesctl set balanced' <br>
 alias pwrp='powerprofilesctl set performance' <br>
 alias pwrs='powerprofilesctl set power-saver' <br>
 alias pwrlist='powerprofilesctl list' <br>
 alias pwrget='powerprofilesctl get' <br>
+
+##### Hyperland isteyenler için
+
+sudo pacman -S power-profiles-daemon
 
 
