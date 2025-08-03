@@ -10,6 +10,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### 2. [ güç modunu değiştirme ] - (KDE VE GNOME için)
 
+#### Servisi etkinleştir
+sudo systemctl enable warp-svc
+sudo systemctl start warp-svc
+
+(Eklencek...)
+
+#### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle
 alias pwrb='powerprofilesctl set balanced'
 alias pwrp='powerprofilesctl set performance'
 alias pwrs='powerprofilesctl set power-saver'
@@ -22,6 +29,9 @@ alias mys='sshpass -p "password" ssh ssh_bilgilerin'
 
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#### Sonrasında şu komutu çalıştır
+source ~/.zshrc
 
 ### 4. [servisleri devre dışı bırakma - etkinleştirme ] (Discord girmek isteyenler için zapret alternatifi)
 
