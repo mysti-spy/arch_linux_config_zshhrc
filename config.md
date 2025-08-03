@@ -16,6 +16,8 @@ sudo systemctl start warp-svc <br>
 
 (Eklencek...)
 
+### 3. powerprofilesctl kurulum ayarı
+
 #### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle
 alias pwrb='powerprofilesctl set balanced' <br>
 alias pwrp='powerprofilesctl set performance' <br>
@@ -23,10 +25,7 @@ alias pwrs='powerprofilesctl set power-saver' <br>
 alias pwrlist='powerprofilesctl list' <br>
 alias pwrget='powerprofilesctl get' <br>
 
-### 3. [yunohost sunucusuna erişme] (Self-host kullananlar için OPSİYONEL)
-
-alias mys='sshpass -p "password" ssh ssh_bilgilerin'
-
+#### terminalde auto-complate ve syntax kontrolü yapan birkaç plugin .zshrc dosyasına ekle
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh <br>
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh <br>
 
