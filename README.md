@@ -23,39 +23,39 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 <hr>
 
-### 5. CLoudflare warp kurulum ayarları
+### 4. CLoudflare warp kurulum ayarları
 
-#### 5.1 Servisi etkinleştir
+#### 4.1 Servisi etkinleştir
 sudo systemctl enable --now warp-svc <br>
 
-#### 5.2 Bu komutlar seni kaydeder ve Warp ağına bağlar.
+#### 4.2 Bu komutlar seni kaydeder ve Warp ağına bağlar.
 warp-cli register <br>
 warp-cli connect <br>
 
-#### 5.3 warp ağında bağlı mısın bunu bir kontrol et.
+#### 4.3 warp ağında bağlı mısın bunu bir kontrol et.
 warp-cli status
 
 <hr>
 
-### 6. .zshrc eklemen gereken configler.
+### 5. .zshrc eklemen gereken configler.
 
 #### autocomplate ve syntax yazım özelliği .zshrc ekle.
 
-##### 6.1 kurulumu yap.
+##### 5.1 kurulumu yap.
 sudo pacman -S zsh-autosuggestions zsh-syntax-highlighting
 
-##### 6.2 .zshrc dosyasına ekle.
+##### 5.2 .zshrc dosyasına ekle.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh <br>
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh <br>
 
-##### 6.3 Sonrasında şu komutu çalıştır.
+##### 5.3 Sonrasında şu komutu çalıştır.
 source ~/.zshrc <br>
 
 <hr>
 
-### 7. GÜç Planını Değiştirme
+### 6. GÜç Planını Değiştirme
 
-#### powerprofilesctl kur.
+#### 6.1 powerprofilesctl kur.
 
 sudo pacman -S powerprofilesctl
 
