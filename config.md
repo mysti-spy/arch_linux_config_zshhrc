@@ -23,7 +23,7 @@ alias mys='sshpass -p "password" ssh ssh_bilgilerin'
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-### 3. [servisleri devre dışı bırakma - etkinleştirme ] (Discord girmek isteyenler için zapret alternatifi)
+### 4. [servisleri devre dışı bırakma - etkinleştirme ] (Discord girmek isteyenler için zapret alternatifi)
 
 alias dwarp='sudo systemctl disable warp-svc'
 alias ewarp='sudo systemctl enable warp-svc'
