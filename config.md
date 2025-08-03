@@ -2,7 +2,7 @@
 
 sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting
 
-yay -S vscodium (**none telemetry**)
+yay -S vscodium warp-cli
 
 #### oh my zsh kurulum komutu
 
