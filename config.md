@@ -16,6 +16,8 @@ sudo systemctl start warp-svc <br>
 
 (Eklencek...)
 
+<hr>
+
 ### 3. powerprofilesctl kurulum ayarı
 
 #### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle
@@ -31,6 +33,8 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 #### Sonrasında şu komutu çalıştır
 source ~/.zshrc
+
+<hr>
 
 ### 4. [servisleri devre dışı bırakma - etkinleştirme ] - (Discord girmek isteyenler için)
 
