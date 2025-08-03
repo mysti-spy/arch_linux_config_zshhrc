@@ -6,7 +6,7 @@ alias pwrs='powerprofilesctl set power-saver'
 alias pwrlist='powerprofilesctl list'
 alias pwrget='powerprofilesctl get'
 
-###yunohost sunucusuna erişme
+### yunohost sunucusuna erişme
 
 alias mys='sshpass -p "password" ssh ssh_bilgilerin'
 
