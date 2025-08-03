@@ -46,5 +46,5 @@ source ~/.zshrc
 ### 4. [servisleri devre dışı bırakma - etkinleştirme ]
 #### Discord girmek isteyenler için
 
-alias dwarp='sudo systemctl disable warp-svc'
-alias ewarp='sudo systemctl enable warp-svc'
+alias dwarp='sudo systemctl disable warp-svc' <br>
+alias ewarp='sudo systemctl enable warp-svc' <br>
