@@ -1,3 +1,5 @@
+# my config .zshrc
+
 ### 1. [ Recommended apps ]
 
 sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting spotify obsidian
