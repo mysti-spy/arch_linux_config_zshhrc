@@ -25,7 +25,7 @@ sudo systemctl start warp-svc <br>
 
 #### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle (değiştireiblirsin)
 
-#### komut yazarak direkt aktif hale getirebilirsin
+##### komut yazarak direkt aktif hale getirebilirsin
 alias pwrb='powerprofilesctl set balanced' <br>
 alias pwrp='powerprofilesctl set performance' <br>
 alias pwrs='powerprofilesctl set power-saver' <br>
