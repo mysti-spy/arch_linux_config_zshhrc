@@ -1,8 +1,10 @@
 ### Recommended apps
 
 sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting
- 
+
 yay -S vscodium (none telemetry)
+
+#### oh my zsh kurulum komutu
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" **(oh my zsh install)**
 
@@ -14,7 +16,7 @@ alias pwrs='powerprofilesctl set power-saver'
 alias pwrlist='powerprofilesctl list'
 alias pwrget='powerprofilesctl get'
 
-### yunohost sunucusuna erişme
+### yunohost sunucusuna erişme (Self-host kullananlar için OPSİYONEL)
 
 alias mys='sshpass -p "password" ssh ssh_bilgilerin'
 
