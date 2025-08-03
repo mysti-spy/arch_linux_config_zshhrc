@@ -1,8 +1,10 @@
 # Arch Linux .zshrc config ve kurulan uygulamalar
 
-### 1. Recommended apps
+### 1. Başlamadan önce sisteminin güncellemelerini kontrol et
 
-sudo pacman -S firefox libreoffice git flatpak
+sudo pacman -Syu
+
+<hr>
 
 ### 2. yay kurulum
 
