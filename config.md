@@ -4,11 +4,11 @@ sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb 
 
 yay -S vscodium (**none telemetry**)
 
-#### 2. oh my zsh kurulum komutu
+#### oh my zsh kurulum komutu
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-### 3. güç modunu değiştirme (powerprofilesctl) - KDE VE GNOME için
+### 2. güç modunu değiştirme (powerprofilesctl) - KDE VE GNOME için
 
 alias pwrb='powerprofilesctl set balanced'
 alias pwrp='powerprofilesctl set performance'
@@ -23,7 +23,7 @@ alias mys='sshpass -p "password" ssh ssh_bilgilerin'
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-### servisleri devre dışı bırakma - etkinleştirme
+### 3. servisleri devre dışı bırakma - etkinleştirme (Discord girmek isteyenler için zapret alternatifi)
 
 alias dwarp='sudo systemctl disable warp-svc'
 alias ewarp='sudo systemctl enable warp-svc'
