@@ -22,10 +22,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 <hr>
 
-### 4. [ güç modunu değiştirme ] - (KDE VE GNOME için)
-
-<hr>
-
 #### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle (değiştireiblirsin)
 
 ### 5. CLoudflare warp kurulum ayarları
@@ -54,6 +50,8 @@ alias dwarp='sudo systemctl disable warp-svc' <br>
 alias ewarp='sudo systemctl enable warp-svc' <br>
 
 #### powerprofilesctl komut kısayol atama
+
+##### [ güç modunu değiştirme ] - (KDE VE GNOME için)
 alias pwrb='powerprofilesctl set balanced' <br>
 alias pwrp='powerprofilesctl set performance' <br>
 alias pwrs='powerprofilesctl set power-saver' <br>
