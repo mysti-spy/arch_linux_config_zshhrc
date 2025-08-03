@@ -37,6 +37,8 @@ sudo systemctl start warp-svc <br>
 #### sonrasında şu komutları gir
 (EKlencek...)
 
+<hr>
+
 ### 6. .zshrc eklemen gereken configler
 
 #### autocomplate ve syntax yazım özelliği
