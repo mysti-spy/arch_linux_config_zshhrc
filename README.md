@@ -2,7 +2,7 @@
 
 ### 1. Recommended apps
 
-sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak spotify obsidian
+sudo pacman -S firefox libreoffice git flatpak
 
 ### 2. yay kurulum
 
@@ -14,7 +14,7 @@ cd yay
 #### 2.2 yay paketini derle ve kurmaya başla gelen cevaplara da Y de
 makepkg -si
 
-#### arch reposunda bulunmadığı için yay dan indirilen apps (Opsiyonel)
+#### arch reposunda bulunmadığı için yay dan indirilen apps (OPSİYONEL)
 yay -S vscodium warp-cli
 
 ### 3. oh my zsh kurulum komutu
@@ -22,8 +22,6 @@ yay -S vscodium warp-cli
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 <hr>
-
-#### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle (değiştireiblirsin)
 
 ### 5. CLoudflare warp kurulum ayarları
 
@@ -53,11 +51,11 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 ##### 6.3 Sonrasında şu komutu çalıştır.
 source ~/.zshrc <br>
 
-#### Cloudflare warp servis ksıayol ile etkin-devre dışı yapma (Opsiyonel)
-alias dwarp='sudo systemctl disable warp-svc' <br>
-alias ewarp='sudo systemctl enable warp-svc' <br>
+<hr>
 
-##### güç modunu değiştirme - (KDE VE GNOME için)
+### 7. GÜç Planını Değiştirme
+
+#### powerprofilesctl kur.
 
 sudo pacman -S powerprofilesctl
 
@@ -66,14 +64,14 @@ sudo pacman -S powerprofilesctl
 - powerprofilesctl set performance = güç tasarrufunu performans olarak ayarlar.
 - powerprofilesctl set power-saver = güç tasarrufunu pil ömrüne bağlı ayarlar **(Laptoplar için kullanılabilir)**
 
-#### powerprofilesctl komut kısayol atama
+#### powerprofilesctl komut kısayol atamak istersen (OPSİYONEL)
 alias pwrb='powerprofilesctl set balanced' <br>
 alias pwrp='powerprofilesctl set performance' <br>
 alias pwrs='powerprofilesctl set power-saver' <br>
 alias pwrlist='powerprofilesctl list' <br>
 alias pwrget='powerprofilesctl get' <br>
 
-##### Hyperland isteyenler için
+##### Hyperland İLE kurmak isteyenler için
 
 sudo pacman -S power-profiles-daemon
 
