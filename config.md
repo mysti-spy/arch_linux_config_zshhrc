@@ -1,14 +1,14 @@
-### Recommended apps
+### 1. Recommended apps
 
 sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting
 
-yay -S vscodium (none telemetry)
+yay -S vscodium (**none telemetry**)
 
-#### oh my zsh kurulum komutu
+#### 2. oh my zsh kurulum komutu
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-### güç modunu değiştirme (powerprofilesctl)
+### 3. güç modunu değiştirme (powerprofilesctl) - KDE VE GNOME için
 
 alias pwrb='powerprofilesctl set balanced'
 alias pwrp='powerprofilesctl set performance'
