@@ -8,12 +8,13 @@ sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb 
 
 git clone https://aur.archlinux.org/yay.git <br>
 
-#### Dizine gir
+#### 2.1 Dizine gir
 cd yay
 
-#### yay paketini derle ve kurmaya başla gelen cevaplara da Y de
+#### 2.2 yay paketini derle ve kurmaya başla gelen cevaplara da Y de
 makepkg -si
 
+#### önerebileceğim apps (Opsiyonel)
 yay -S vscodium warp-cli
 
 ### 3. oh my zsh kurulum komutu
@@ -26,26 +27,29 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### 5. CLoudflare warp kurulum ayarları
 
-#### Servisi etkinleştir
-sudo systemctl enable warp-svc <br>
-sudo systemctl start warp-svc <br>
+#### 5.1 Servisi etkinleştir
+sudo systemctl enable --now warp-svc <br>
 
-#### sonrasında şu komutları gir
-(EKlencek...)
+#### 5.2 Bu komutlar seni kaydeder ve Warp ağına bağlar.
+warp-cli register <br>
+warp-cli connect <br>
+
+#### 5.3 warp ağında bağlı mısın bunu bir kontrol et
+warp-cli status
 
 <hr>
 
 ### 6. .zshrc eklemen gereken configler
 
-#### autocomplate ve syntax yazım özelliği
+#### 6.1 autocomplate ve syntax yazım özelliği .zshrc ekle
 
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh <br>
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh <br>
 
-#### Sonrasında şu komutu çalıştır
+#### 6.2 Sonrasında şu komutu çalıştır
 source ~/.zshrc <br>
 
-#### Cloudflare warp servis ksıayol ile etkin-devre dışı yapma
+#### Cloudflare warp servis ksıayol ile etkin-devre dışı yapma (Opsiyonel)
 alias dwarp='sudo systemctl disable warp-svc' <br>
 alias ewarp='sudo systemctl enable warp-svc' <br>
 
