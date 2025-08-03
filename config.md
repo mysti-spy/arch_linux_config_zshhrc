@@ -11,24 +11,24 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 2. [ güç modunu değiştirme ] - (KDE VE GNOME için)
 
 #### Servisi etkinleştir
-sudo systemctl enable warp-svc
-sudo systemctl start warp-svc
+sudo systemctl enable warp-svc <br>
+sudo systemctl start warp-svc <br>
 
 (Eklencek...)
 
 #### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle
-alias pwrb='powerprofilesctl set balanced'
-alias pwrp='powerprofilesctl set performance'
-alias pwrs='powerprofilesctl set power-saver'
-alias pwrlist='powerprofilesctl list'
-alias pwrget='powerprofilesctl get'
+alias pwrb='powerprofilesctl set balanced' <br>
+alias pwrp='powerprofilesctl set performance' <br>
+alias pwrs='powerprofilesctl set power-saver' <br>
+alias pwrlist='powerprofilesctl list' <br>
+alias pwrget='powerprofilesctl get' <br>
 
 ### 3. [yunohost sunucusuna erişme] (Self-host kullananlar için OPSİYONEL)
 
 alias mys='sshpass -p "password" ssh ssh_bilgilerin'
 
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh <br>
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh <br>
 
 #### Sonrasında şu komutu çalıştır
 source ~/.zshrc
