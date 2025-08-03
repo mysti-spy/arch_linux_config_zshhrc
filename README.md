@@ -11,18 +11,24 @@ git clone https://aur.archlinux.org/yay.git <br>
 #### Dizine gir
 cd yay
 
-#### yay pake3tini derle ve kurmaya başla gelen cevaplara da Y de
+#### yay paketini derle ve kurmaya başla gelen cevaplara da Y de
 makepkg -si
 
 yay -S vscodium warp-cli
 
-#### oh my zsh kurulum komutu
+### 3. oh my zsh kurulum komutu
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 <hr>
 
-### 3. [ güç modunu değiştirme ] - (KDE VE GNOME için)
+### 4. [ güç modunu değiştirme ] - (KDE VE GNOME için)
+
+<hr>
+
+#### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle (değiştireiblirsin)
+
+### 5. CLoudflare warp kurulum ayarları
 
 #### Servisi etkinleştir
 sudo systemctl enable warp-svc <br>
@@ -31,31 +37,25 @@ sudo systemctl start warp-svc <br>
 #### sonrasında şu komutları gir
 (EKlencek...)
 
-<hr>
+#### .zshrc eklemen gereken configler
 
-### 4. powerprofilesctl kurulum ayarı
+#### autocomplate ve syntax yazım özelliği
 
-#### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle (değiştireiblirsin)
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh <br>
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh <br>
 
-##### komut yazarak direkt aktif hale getirebilirsin
+#### Sonrasında şu komutu çalıştır
+source ~/.zshrc <br>
+
+#### Cloudflare warp servis ksıayol ile etkin-devre dışı yapma
+alias dwarp='sudo systemctl disable warp-svc' <br>
+alias ewarp='sudo systemctl enable warp-svc' <br>
+
+#### powerprofilesctl komut kısayol atama
 alias pwrb='powerprofilesctl set balanced' <br>
 alias pwrp='powerprofilesctl set performance' <br>
 alias pwrs='powerprofilesctl set power-saver' <br>
 alias pwrlist='powerprofilesctl list' <br>
 alias pwrget='powerprofilesctl get' <br>
 
-#### terminalde auto-complate ve syntax kontrolü yapan birkaç plugin .zshrc dosyasına ekle
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh <br>
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh <br>
 
-#### Sonrasında şu komutu çalıştır
-source ~/.zshrc
-
-<hr>
-
-### 5. [servisleri devre dışı bırakma - etkinleştirme ]
-#### Discord girmek isteyenler için
-
-##### .zshrc dosyasına ekleyin
-alias dwarp='sudo systemctl disable warp-svc' <br>
-alias ewarp='sudo systemctl enable warp-svc' <br>
