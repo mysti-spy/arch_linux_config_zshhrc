@@ -8,6 +8,8 @@ yay -S vscodium warp-cli
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+<hr>
+
 ### 2. [ güç modunu değiştirme ] - (KDE VE GNOME için)
 
 #### Servisi etkinleştir
