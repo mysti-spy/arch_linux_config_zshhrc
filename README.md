@@ -1,6 +1,6 @@
 ### 1. [ Recommended apps ]
 
-sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting
+sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting spotify obsidian
 
 yay -S vscodium warp-cli
 
