@@ -1,4 +1,4 @@
-# Arch Linux .zsahrc config ve gerekli uygulamalar
+# Arch Linux .zshrc config ve kurulan uygulamalar
 
 ### 1. Recommended apps
 
