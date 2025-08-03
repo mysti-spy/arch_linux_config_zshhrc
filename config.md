@@ -6,7 +6,7 @@ yay -S vscodium (none telemetry)
 
 #### oh my zsh kurulum komutu
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" **(oh my zsh install)**
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ### güç modunu değiştirme (powerprofilesctl)
 
