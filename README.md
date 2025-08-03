@@ -37,7 +37,9 @@ warp-cli status
 
 <hr>
 
-### 5. .zshrc eklemen gereken configler.
+### 5. .zshrc eklemen gereken configler. <br>
+
+#### shell olarak zsh kullanıyorsanız eğer bu ayarları yapın
 
 #### autocomplate ve syntax yazım özelliği .zshrc ekle.
 
