@@ -4,6 +4,16 @@
 
 sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting spotify obsidian
 
+### 2. yay kurulum
+
+git clone https://aur.archlinux.org/yay.git <br>
+
+#### Dizine gir
+cd yay
+
+#### yay pake3tini derle ve kurmaya başla gelen cevaplara da Y de
+makepkg -si
+
 yay -S vscodium warp-cli
 
 #### oh my zsh kurulum komutu
@@ -12,7 +22,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 <hr>
 
-### 2. [ güç modunu değiştirme ] - (KDE VE GNOME için)
+### 3. [ güç modunu değiştirme ] - (KDE VE GNOME için)
 
 #### Servisi etkinleştir
 sudo systemctl enable warp-svc <br>
@@ -23,7 +33,7 @@ sudo systemctl start warp-svc <br>
 
 <hr>
 
-### 3. powerprofilesctl kurulum ayarı
+### 4. powerprofilesctl kurulum ayarı
 
 #### nano editörü ile .zshrc dosyasını düzenle ve bunları ekle (değiştireiblirsin)
 
@@ -43,7 +53,7 @@ source ~/.zshrc
 
 <hr>
 
-### 4. [servisleri devre dışı bırakma - etkinleştirme ]
+### 5. [servisleri devre dışı bırakma - etkinleştirme ]
 #### Discord girmek isteyenler için
 
 ##### .zshrc dosyasına ekleyin
