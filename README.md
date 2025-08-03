@@ -2,7 +2,7 @@
 
 ### 1. Recommended apps
 
-sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak openrgb zsh-autosuggestions zsh-syntax-highlighting spotify obsidian
+sudo pacman -S firefox libreoffice sshpass git powerprofilesctl flatpak spotify obsidian
 
 ### 2. yay kurulum
 
@@ -34,28 +34,39 @@ sudo systemctl enable --now warp-svc <br>
 warp-cli register <br>
 warp-cli connect <br>
 
-#### 5.3 warp ağında bağlı mısın bunu bir kontrol et
+#### 5.3 warp ağında bağlı mısın bunu bir kontrol et.
 warp-cli status
 
 <hr>
 
-### 6. .zshrc eklemen gereken configler
+### 6. .zshrc eklemen gereken configler.
 
-#### 6.1 autocomplate ve syntax yazım özelliği .zshrc ekle
+#### autocomplate ve syntax yazım özelliği .zshrc ekle.
 
+##### 6.1 kurulumu yap.
+sudo pacman -S zsh-autosuggestions zsh-syntax-highlighting
+
+##### 6.2 .zshrc dosyasına ekle.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh <br>
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh <br>
 
-#### 6.2 Sonrasında şu komutu çalıştır
+##### 6.3 Sonrasında şu komutu çalıştır.
 source ~/.zshrc <br>
 
 #### Cloudflare warp servis ksıayol ile etkin-devre dışı yapma (Opsiyonel)
 alias dwarp='sudo systemctl disable warp-svc' <br>
 alias ewarp='sudo systemctl enable warp-svc' <br>
 
-#### powerprofilesctl komut kısayol atama
-
 ##### güç modunu değiştirme - (KDE VE GNOME için)
+
+sudo pacman -S powerprofilesctl
+
+- powerprofilesctl get = mevcut kullandığın güç planını gösterir.
+- powerprofilesctl set balanced = güc tasarrufunu dengeli olarak ayarlar.
+- powerprofilesctl set performance = güç tasarrufunu performans olarak ayarlar.
+- powerprofilesctl set power-saver = güç tasarrufunu pil ömrüne bağlı ayarlar **(Laptoplar için kullanılabilir)**
+
+#### powerprofilesctl komut kısayol atama
 alias pwrb='powerprofilesctl set balanced' <br>
 alias pwrp='powerprofilesctl set performance' <br>
 alias pwrs='powerprofilesctl set power-saver' <br>
