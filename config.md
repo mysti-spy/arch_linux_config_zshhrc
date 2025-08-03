@@ -25,6 +25,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 ### servisleri devre dışı bırakma - etkinleştirme
 
-#### warp dns servisini aç-kapa
 alias dwarp='sudo systemctl disable warp-svc'
 alias ewarp='sudo systemctl enable warp-svc'
